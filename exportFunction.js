@@ -1,8 +1,7 @@
-const text = (name) =>
+const text = () =>
  {
-     return name
- };
+     return "This is a Function" };
 
-const name="This is a Function";
 
-module.exports = text(name);
+
+module.exports = text;
