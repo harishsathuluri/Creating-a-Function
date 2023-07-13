@@ -5,4 +5,4 @@ const text = (name) =>
 
 const name="This is a Function";
 
-exports.text = text(name);
+module.exports = text(name);
